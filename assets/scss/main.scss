@@ -1,3 +1,5 @@
+$color-awesome: {{ .Site.Params.colorAwesome | default "#e3bfb8"}} !default;
+
 @import "global";
 @import "footer";
 
