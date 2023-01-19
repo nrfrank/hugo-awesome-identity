@@ -5,6 +5,9 @@
 # generated files by hugo
 /public/
 /resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+
 /exampleSite/public/
 /exampleSite/resources/_gen/
 
@@ -12,6 +15,9 @@
 hugo.exe
 hugo.darwin
 hugo.linux
+
+# Temporary lock file while building
+/.hugo_build.lock
 
 ### OSX ###
 # General
