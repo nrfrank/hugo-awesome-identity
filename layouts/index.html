@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jura:400,700">
 
 {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed") }}
-{{ $style := resources.Get "sass/main.scss" | toCSS $options | fingerprint }}
+{{ $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "style.main.scss" . | toCSS $options | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
     <!-- <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}"> -->
 

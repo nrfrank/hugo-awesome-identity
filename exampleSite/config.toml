@@ -4,6 +4,9 @@ title = "Awesome Identity for Hugo"
 
 
 ## Profile Configurations
+[params]
+  colorAwesome = "rgb(37, 87, 162)"
+
 [params.profile]
   portrait = "/images/portrait-default.png"
   firstname = "John"

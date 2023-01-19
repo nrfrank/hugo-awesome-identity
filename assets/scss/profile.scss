@@ -10,8 +10,8 @@
       width: 10rem;
       height: 10rem;
       border: 0.5em solid #3d3d3d;
-      border-right-color: rgb(37, 87, 162);
-      border-bottom-color: rgb(37, 87, 162);
+      border-right-color: $color-awesome;
+      border-bottom-color: $color-awesome;
       border-radius: 50%;
       -webkit-transition: transform 0.8s ease-in-out;
       -moz-transition: transform 0.8s ease-in-out;
@@ -51,7 +51,7 @@
   .title {
     font-size: 1rem;
     text-transform: uppercase;
-    color: rgb(37, 87, 162);
+    color: $color-awesome;
     margin: 0.8em auto;
   }
   .bio {
